@@ -50,7 +50,7 @@ export const ProductDetailsScreen = (props) => {
 
   return (
     <ViewDetailsBlock style={{ marginTop: StatusBar.currentHeight }}>
-      {/* <TopNavButtons nav={props.navigation.navigate} id={product.id} titleOne='Prev cocktail' titleTwo="Next cocktail" /> */}
+      {/* re <TopNavButtons nav={props.navigation.navigate} id={product.id} titleOne='Prev cocktail' titleTwo="Next cocktail" /> */}
 
       <ViewImage>
         <ImageDetailsBlock source={{ uri: product.image }} />
